@@ -1,0 +1,23 @@
+/*!
+ * 
+ * @version v1
+ * @khaidang
+ * 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Saira:100,200,300,400,500,600,700,800,900');
+
+// Override Boostrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap source files
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// Override core variables
+@import "core-variables";
+
+// Import core styles
+@import "core/core";
+
+// Custom styles
+@import "custom";

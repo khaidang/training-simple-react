@@ -1,0 +1,32 @@
+.carousel-arrow {
+    @include media-breakpoint-up(md) {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+.carousel-indicators-testimonial {
+    li {
+        height: 15px;
+        width: 15px;
+        border-radius: 100%;
+        border: 1px solid $orange_cus;
+
+        &.active {
+            background-color: $orange_cus;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        bottom: -10px;
+    }
+}
+
+.carousel-testimonial {
+    padding-bottom: 3rem;
+    .f4 {
+        line-height: 1;
+    }
+    .f5 {
+        color: $gray-900;
+    }
+}
